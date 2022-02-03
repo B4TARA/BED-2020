@@ -1,0 +1,2 @@
+C:\Users\User\Desktop\Kurs_Project\Debug\Libryary.pdb
+C:\Users\User\Desktop\Kurs_Project\Libryary\Debug\Libryary.pdb

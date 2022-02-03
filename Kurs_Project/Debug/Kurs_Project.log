@@ -1,0 +1,75 @@
+﻿Сборка начата 05.10.2021 21:12:54.
+Уровень детализации журнала: Normal.     1>Проект "D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\Kurs_Project.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Kurs_Project.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt CodeGeneration.cpp Error.cpp FST.cpp Greibach.cpp In.cpp IT.cpp Kurs_Project.cpp LexAn.cpp Log.cpp LT.cpp MFST.cpp out.cpp Parm.cpp PolishNotation.cpp SemAn.cpp
+         CodeGeneration.cpp
+         Error.cpp
+         FST.cpp
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\FST.cpp(66,36): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         Greibach.cpp
+         In.cpp
+         IT.cpp
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\IT.cpp(98,8): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+         Kurs_Project.cpp
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\Kurs_Project.cpp(52,22): warning C4101: lt_position: неиспользованная локальная переменная
+         LexAn.cpp
+         Log.cpp
+         LT.cpp
+         MFST.cpp
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\MFST.cpp(240,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         out.cpp
+         Parm.cpp
+         PolishNotation.cpp
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\PolishNotation.cpp(80,21): warning C4129: @: неизвестная escape-последовательность
+         SemAn.cpp
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\SemAn.cpp(340,11): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "ERROR_THROW"
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\SemAn.cpp(14,18): warning C4101: j: неиспользованная локальная переменная
+         Создание кода...
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\PolishNotation.cpp(45): warning C4172: возвращение адреса локальной или временной переменной : temp
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\PolishNotation.cpp(34): warning C4715: PN::Stack::push: значение возвращается не при всех путях выполнения
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\PolishNotation.cpp(22): warning C4715: PN::Stack::push: значение возвращается не при всех путях выполнения
+     1>D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\CodeGeneration.cpp(620): warning C4715: CG::generateInstructions: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Debug\Kurs_Project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Debug\Kurs_Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Debug\Kurs_Project.lib" /MACHINE:X86 Debug\CodeGeneration.obj
+         Debug\Error.obj
+         Debug\FST.obj
+         Debug\Greibach.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\Kurs_Project.obj
+         Debug\LexAn.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\out.obj
+         Debug\Parm.obj
+         Debug\PolishNotation.obj
+         Debug\SemAn.obj
+         Kurs_Project.vcxproj -> D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Debug\Kurs_Project.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Kurs_Project.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Kurs_Project.tlog\Kurs_Project.lastbuildstate".
+     1>Сборка проекта "D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\Kurs_Project.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\Kurs_Project.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\FST.cpp(66,36): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\IT.cpp(98,8): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\Kurs_Project.cpp(52,22): warning C4101: lt_position: неиспользованная локальная переменная
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\MFST.cpp(240,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\PolishNotation.cpp(80,21): warning C4129: @: неизвестная escape-последовательность
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\SemAn.cpp(340,11): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "ERROR_THROW"
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\SemAn.cpp(14,18): warning C4101: j: неиспользованная локальная переменная
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\PolishNotation.cpp(45): warning C4172: возвращение адреса локальной или временной переменной : temp
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\PolishNotation.cpp(34): warning C4715: PN::Stack::push: значение возвращается не при всех путях выполнения
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\PolishNotation.cpp(22): warning C4715: PN::Stack::push: значение возвращается не при всех путях выполнения
+         D:\УЧЕБА\3-ий семестр\ЯП\Kurs_Project\Kurs_Project\CodeGeneration.cpp(620): warning C4715: CG::generateInstructions: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 11
+    Ошибок: 0
+
+Прошло времени 00:00:14.17

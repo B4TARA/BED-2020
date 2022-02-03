@@ -1,0 +1,21 @@
+﻿Сборка начата 14.12.2020 16:21:01.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\Kurs_Project\Assembler\Assembler.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Assembler.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling ..\Kurs_Project\in.txt.asm...
+         cmd.exe /C "C:\Users\User\AppData\Local\Temp\tmp944fb30247264f009636a7fb855c6eca.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\in.txt.obj" /W3 /errorReport:prompt  /Ta..\Kurs_Project\in.txt.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\Kurs_Project\Debug\Assembler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\User\Desktop\Kurs_Project\Debug\Assembler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\Kurs_Project\Debug\Assembler.lib" /MACHINE:X86 Debug\in.txt.obj
+         Assembler.vcxproj -> C:\Users\User\Desktop\Kurs_Project\Debug\Assembler.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Assembler.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Assembler.tlog\Assembler.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Desktop\Kurs_Project\Assembler\Assembler.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.96

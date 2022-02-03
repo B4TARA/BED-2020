@@ -1,0 +1,91 @@
+.586
+.model flat, stdcall
+includelib Libryary.lib
+includelib kernel32.lib
+includelib libucrt.lib
+
+ExitProcess PROTO : DWORD
+data PROTO
+time PROTO
+outputstr PROTO : DWORD
+outputuint PROTO : DWORD
+outputint PROTO : SDWORD
+.stack 4096
+.const
+	overflow db 'ERROR: VARIABLE OVERFLOW', 0 
+	null_division db 'ERROR: DIVISION BY ZERO', 0
+	fiL1 SDWORD 1
+	mainL2 SDWORD 1043054
+	mainL3 SDWORD 5
+	mainL4 SDWORD 2
+	mainL5 BYTE o, 0
+	mainL6 BYTE 1234567890, 0
+	mainL7 BYTE контрольный пример, 0
+	mainL8 SDWORD 0
+.data
+	mainmainx SDWORD 0
+	mainmainy SDWORD 0
+	mainmainsa DWORD ?
+	mainmainz SDWORD 0
+.code, fifix : SDWORD, fifiy : DWORD
+	push fiL1
+	pop fifix
+	push dword ptr fifiy
+
+	jmp EXIT
+	EXIT_DIV_ON_NULL:
+	push offset null_division
+	call outstr
+	push - 1
+	call ExitProcess
+
+	EXIT_OVERFLOW:
+	push offset overflow
+	call outstr
+	push - 2
+	call ExitProcess
+
+	EXIT:
+	pop eax
+	ret 8
+
+ ENDP
+	push mainL2
+	pop mainmainx
+	push mainL3
+	pop mainmainy
+	push offset mainL5
+	call outstr
+ ENDP
+	 mov mainmainsa,offset mainL6
+	call time_proc
+	push eax
+	pop mainmainz
+	push offset mainL7
+	call outstr
+	call date_proc
+	push eax
+	call outint
+	call time_proc
+	push eax
+	call outint
+	push mainL8
+
+	jmp EXIT
+	EXIT_DIV_ON_NULL:
+	push offset null_division
+	call outstr
+	push - 1
+	call ExitProcess
+
+	EXIT_OVERFLOW:
+	push offset overflow
+	call outstr
+	push - 2
+	call ExitProcess
+
+	EXIT:
+	pop eax
+	ret 0
+
+ ENDP

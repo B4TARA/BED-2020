@@ -1,0 +1,46 @@
+
+----------- ПРОТОКОЛ -----------
+ ----------- 14.12.20 16:30:23 -----------
+ 
+ ----------- ПАРАМЕТРЫ ----------- 
+
+-in: C:\Users\User\Desktop\Kurs_Project\Kurs_Project\in.txt
+-out: C:\Users\User\Desktop\Kurs_Project\Kurs_Project\in.txt.asm
+-log: C:\Users\User\Desktop\Kurs_Project\Kurs_Project\in.txt.log
+
+----------- ИСХОДНЫЕ ДАННЫЕ -----------
+declare integer function one(integer a, unsigned integer b)
+{
+output 'Функция one вызвалась';
+call date();
+call time();
+declare integer d = a;
+declare unsigned integer e = b;
+declare integer res;
+res = (d*10);
+return res;
+};
+
+main
+{
+declare integer g = 10;
+declare unsigned integer k = 20;
+declare integer h;
+h = one(g,k);
+output h;
+if(h<10;)
+{
+output 'Больше 10!';
+};
+
+output 'Спасибо за внимание!';
+
+};
+
+
+Всего символов: 405
+Всего строк: 28
+Пропущено: 0
+
+Ошибка 4: У вас нет return
+Строка -1 позиция -1 (отсчёт позиции c 0 не учитывая пробелы)
